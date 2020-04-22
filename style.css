@@ -5,7 +5,6 @@ html, body {
 }
 body, button {
     font-family: 'Lato';
-    font-size: 1rem;
 }
 * {
     box-sizing: border-box;
@@ -15,8 +14,13 @@ ul, p {
 }
 p {
     line-height: 1.5;
+    font-size: 22px;
 }
-
+h1 {
+    font-size: 56px;
+    padding: 0;
+    margin:0;
+}
 /*Layout styles*/
 .container {
      display: flex;
@@ -42,6 +46,7 @@ ul {
     justify-content: center;
     justify-content: space-around;
     text-align: center;
+    padding: 20px 0px 70px 0px;
 }
 .hero {
    text-align: center; 
@@ -55,6 +60,7 @@ ul {
     border-bottom: .5px solid gray;
     margin: 30px;
 }
+
 /*Block styles*/
 .navbar__link-item {
     padding: 10px 20px 5px 10px;
@@ -90,9 +96,6 @@ ul {
 }
 .date-icon {
     max-width: 10%;
-}
-.signup {
-    padding: 20px 0px 70px 0px;
 }
 .learn-btn {
     background: transparent;
